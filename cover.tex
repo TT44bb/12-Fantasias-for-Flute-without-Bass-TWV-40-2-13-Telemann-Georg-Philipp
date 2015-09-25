@@ -1,0 +1,103 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{fix-cm}
+%\definecolor{Dark}{gray}{.2}
+%\definecolor{Medium}{gray}{.6}
+%\definecolor{Light}{gray}{.8}
+
+\setlength\parindent{0pt}
+
+\newcommand{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+
+% What follows has been elaborated starting from an original
+% post of Piet van Oostrum <piet@cs.uu.nl> on comp.text.tex .
+%
+% A4 pages are 210 mm wide and 297 mm high, i.e. about 595
+% bp wide and 842 bp high.  Allowing a 1 in (72 bp) white
+% margin on all sides (predefined inside TeX), that accounts
+% for a decoration border 451 bp wide and 698 bp high.  If
+% we want to use WeboMints characters in square cells with
+% 12 bp side, we need 37 cells (2 angles and 35 border) in
+% the X direction, for a total of 37*12 = 444 bp; and 58
+% cells in the Y direction, for a total of 58*12 = 696 bp.
+% The two white sides have a real dimension of (595-444)/2 =
+% 75 and (842-696)/2 = 73 bp's.
+
+\fancyhf{} \pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\unitlength}{1bp}
+
+\definecolor{MyColor}{rgb}{0,0.08,0.45}
+%\def \uplet {s}
+%\def \lowlet {v}
+%\def \leftlet {x}
+%\def \rightlet {y}
+%\def \ullet {r}
+%\def \urlet {t}
+%\def \lllet {u}
+%\def \lrlet {w}
+
+\def \uplet {T}
+\def \lowlet {S}
+\def \leftlet {N}
+\def \rightlet {Q}
+\def \ullet {R}
+\def \urlet {P}
+\def \lllet {O}
+\def \lrlet {M}
+
+\fancyhead[HL]{\wb{36bp}{36bp}						% Offset (48,-16), found by trial and error.
+  \begin{picture}(0,0)(48,-16)
+    \put(0,0){\textcolor{MyColor}{\ullet}}				% Upper left corner
+    \multiput(36,0)(36,0){10}{\textcolor{MyColor}{\uplet}}		% Upper border
+    \put(396,0){\textcolor{MyColor}{\urlet}}				% Upper right corner
+    \multiput(0,-36)(0,-36){17}{\textcolor{MyColor}{\leftlet}}		% Left border
+    \put(0,-648){\textcolor{MyColor}{\lllet}}				% Lower left corner
+    \multiput(36,-648)(36,0){10}{\textcolor{MyColor}{\lowlet}}		% Lower border
+    \multiput(396,-36)(0,-36){17}{\textcolor{MyColor}{\rightlet}}	% Right border
+    \put(396,-648){\textcolor{MyColor}{\lrlet}}				% Lower right corner
+\end{picture}}
+
+
+\begin{document}
+
+{
+\centering
+\vspace*{0.08\textheight}
+\fontsize{40}{50}\selectfont 12 Fantasias for Flute\\[0.5\baselineskip]
+\Huge Without Bass\\[2\baselineskip]
+{\huge \itshape Georg Philipp Telemann \\(1681–1767)\\[6\baselineskip]}
+\Large Edited by Llorenç Lledó\par
+\vspace{0.02\textheight}
+\url{http://lluritu.blogspot.com}
+\\[\baselineskip]
+}
+
+\newpage
+\pagestyle{empty}
+
+\begin{center}
+\huge Edition and Copyright Notice
+\end{center}
+\vspace{0.09\textheight}
+\large
+This edition is based on the manuscript available online at \url{http://imslp.org} \\[0.3cm]
+You can send me any suggestion, correction or comment at \href{mailto:lluritu@gmail.com}{lluritu@gmail.com} \\[1.3cm]
+
+Typeset with Lilypond and Latex. Find the Lyipond source files at \url{http://lluritu.blogspot.com}.\\[1.3cm]
+
+Copyright \copyright 2011 Llorenç Lledó\\[0.3cm]
+Licensed under the Creative Commons Attribution Share Alike 3.0 license.
+You are free to copy, distribute, modify and perform it.
+See the license details here:\\
+\url{http://creativecommons.org/licenses/by-sa/3.0/}\\[1.3cm]
+
+
+
+
+\end{document}
