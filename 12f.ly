@@ -63,7 +63,7 @@
 	{	title = "Fantasia 1"
 	}
 	\score
-	{	\fantasiau
+	{	\transpose d f \fantasiau
 	}
 }
 
@@ -72,7 +72,7 @@
 	{	title = "Fantasia 2" 
 	}
 	\score
-	{	\fantasiados
+	{	\transpose d f \fantasiados
 	}
 }
 
@@ -81,7 +81,7 @@
 	{	title = "Fantasia 3"
 	}
 	\score
-	{	\fantasiatres
+	{	\transpose d f \fantasiatres
 	}
 }
 
@@ -90,7 +90,7 @@
 	{	title = "Fantasia 4"
 	}
 	\score
-	{	\fantasiaquatre
+	{	\transpose d g \fantasiaquatre
 	}
 }
 
@@ -99,7 +99,7 @@
 	{	title = "Fantasia 5"
 	}
 	\score
-	{	\fantasiacinc
+	{	\transpose d f \fantasiacinc
 	}
 }
 
@@ -108,7 +108,7 @@
 	{	title = "Fantasia 6"
 	}
 	\score
-	{	\fantasiasis
+	{	\transpose d f \fantasiasis
 	}
 }
 
@@ -117,7 +117,7 @@
 	{	title = "Fantasia 7"
 	}
 	\score
-	{	\fantasiaset
+	{	\transpose d f \fantasiaset
 	}
 }
 
@@ -126,7 +126,7 @@
 	{	title = "Fantasia 8"
 	}
 	\score
-	{	\fantasiavuit
+	{	\transpose d f \fantasiavuit
 	}
 }
 
@@ -135,7 +135,7 @@
 	{	title = "Fantasia 9"
 	}
 	\score
-	{	\fantasianou
+	{	\transpose d f \fantasianou
 	}
 }
 
@@ -144,7 +144,7 @@
 	{	title = "Fantasia 10"
 	}
 	\score
-	{	\fantasiadeu
+	{	\transpose d f \fantasiadeu
 	}
 }
 
@@ -153,7 +153,7 @@
 	{	title = "Fantasia 11" 
 	}
 	\score
-	{	\fantasiaonze
+	{	\transpose d f \fantasiaonze
 	}
 }
 
@@ -162,6 +162,6 @@
 	{	title = "Fantasia 12"
 	}
 	\score
-	{	\fantasiadotze
+	{	\transpose d f \fantasiadotze
 	}
 }

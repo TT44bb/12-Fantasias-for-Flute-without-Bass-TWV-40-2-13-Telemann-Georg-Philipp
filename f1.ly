@@ -1,6 +1,6 @@
 \version "2.12.3"
 
-fantasiau = \relative c'' {
+fantasiau =  \relative c'' {
 \clef treble
 \time 4/4
 \key a \major
@@ -43,4 +43,3 @@ a16 cis e a gis a | a, d fis a gis a | a, cis e a gis a | fis e fis d cis d | a'
 }
 
 }
-
