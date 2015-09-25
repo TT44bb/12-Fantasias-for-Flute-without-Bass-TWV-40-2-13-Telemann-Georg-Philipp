@@ -4,7 +4,8 @@ fantasiaonze = \relative c'' {
 \clef treble
 \time 4/4
 \key g \major
-\context Staff  #(set-accidental-style 'modern)
+%commented this out to get it to compile, don't actually know why that line is here and why it doesn't compile
+%\context Staff  #(set-accidental-style 'modern')
 
 
 g16 ^"Allegro" b d b d b d b   g c e c e c e c | g b d b g d' g d g, b d b g c e c |
