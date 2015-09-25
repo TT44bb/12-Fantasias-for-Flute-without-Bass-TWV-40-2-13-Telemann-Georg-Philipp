@@ -20,7 +20,7 @@ b4.-+( a16 b) a2 d | e,4. d'8 g4. b,8 c2 | fis,4. c'8 a'4. b,8 c2 | g4. c8 b4. g
 e,4. d'8 g4. b,8 c2 | fis,4. c'8 a'4. b,8 c2 | g4. c8 b4. g'8 d4. fis8 | g,1. \bar "||" |
 
 \time 9/8
-c4.-|\f a-| d-| | b-| g-| c-| | a-| f-| g-| |
+c4.-!\f a-! d-! | b-! g-! c-! | a-! f-! g-! |
 c4 e8 a,4 a'8 d,4 fis8 | b,4 g'8 g,4 f'8 c4 e8 | a,4 f'8 f,4 e'8 g,4 d'8 |
 c8 e g a, a' g d g fis | b, fis' g g, g' f c f e | a, e' f f, f' e g, d' b |
 c e g e g c r4. | d,8 f a f a d r4. | e,,8 gis b gis b e r4. |
@@ -43,8 +43,8 @@ f, b' c a, b' c g,4 b'8 | c g e c4. r4. \bar "||" |
 \time 6/8
 \repeat volta 2 {
 \partial 8 g'8^"Allegro" | g8. a16 g8 e4 g8 | g8. a16 g8 e4 g8 | e8( c4) f8( d4) | e8( c4) ~ c4 b16 c | 
-d8. e16 d8 g4 b,8 | c8. d16 c8 a'4 c,8 | b8( g4) a8( fis4) | g4.-| e'-| |
-d8. c16 b8 c8. b16 a8 | g4.-| e'-| | d8. c16 b8 c8. b16 a8 | g'8. fis16 g8 a4 c,8 |
+d8. e16 d8 g4 b,8 | c8. d16 c8 a'4 c,8 | b8( g4) a8( fis4) | g4.-! e'-! |
+d8. c16 b8 c8. b16 a8 | g4.-! e'-! | d8. c16 b8 c8. b16 a8 | g'8. fis16 g8 a4 c,8 |
 b8( g4) a8( fis4) | g4. ~ g4
 }
 
@@ -52,8 +52,8 @@ b8( g4) a8( fis4) | g4. ~ g4
 d'8 | d8. e16 d8 b4 d8 | d8. e16 d8 b4 e8 | c8( a4) d8( b4) | c8( a4) ~ a4 b16 cis |
 d8. e16 d8 d8.-+ cis16 d8 | e8. f16 e8 e8.-+ d16 e8 | f8. g16 a8 a,8. d16 cis8 | d4. d,4 d'16 e |
 f8( d4) a'8( f4) | g8( e4) ~ e4 d16 e | f8( d4) e8( c4) | d8( g,4) ~ g4 e'16 f |
-g8. a16 g8 c4 e,8 | f8. g16 f8 d'4 f,8 | e8( c4) d8( b4) | c4.-| a'-| | 
-g8. f16 e8 f8. e16 d8 | c4.-| a'-| | g8. f16 e8 f8. e16 d8 | c'8. b16 c8 d4 f,8 |
+g8. a16 g8 c4 e,8 | f8. g16 f8 d'4 f,8 | e8( c4) d8( b4) | c4.-! a'-! | 
+g8. f16 e8 f8. e16 d8 | c4.-! a'-! | g8. f16 e8 f8. e16 d8 | c'8. b16 c8 d4 f,8 |
 e8( c4) d8( b4) | c4. ~ c4
 }
 

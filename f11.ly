@@ -43,12 +43,12 @@ g,16 a b c d8 d, g4 r4
 
 \time 6/4
 \repeat volta 2{
-\partial 4 g'8^"Allegro" fis | g4 d b d b g | e'2.-| d-| | b8 c d4 g, a8 b c4 e, | fis8 g a4 d, d'2 c4 | b d g, e'2 d4 | cis e a, a'2 g4 | fis8 g a4 d, cis8 d e4 cis |
+\partial 4 g'8^"Allegro" fis | g4 d b d b g | e'2.-! d-! | b8 c d4 g, a8 b c4 e, | fis8 g a4 d, d'2 c4 | b d g, e'2 d4 | cis e a, a'2 g4 | fis8 g a4 d, cis8 d e4 cis |
 d fis a, e' g a, | fis' a a, g' a a, | fis' a a, e' g a, | fis'8 g a4 d, cis8 d e4 cis | a d2 ~ d2
 }
 
 \repeat volta 2{
- d'8 cis d4 a fis a fis d | c'!2.-| b-| | g8 a b4 e, dis8 e fis4 dis | b e2 b4 g'2 | 
+ d'8 cis d4 a fis a fis d | c'!2.-! b-! | g8 a b4 e, dis8 e fis4 dis | b e2 b4 g'2 | 
 e8 d  e4 c d8 c d4 b | g c2 g4 e'2 | d4 g b, c e a, | b d g, a d, c'' |
 b8 a g2 a8 g fis2 | g4 cis, d a' cis, d | b' cis, d c' cis, d | b' cis, d a'2 c,4 |
 b8 c d4 g, fis8 g a4 fis | d g2 ~ g2 

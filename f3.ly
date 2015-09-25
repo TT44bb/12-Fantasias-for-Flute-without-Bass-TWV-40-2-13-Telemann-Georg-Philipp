@@ -8,7 +8,7 @@ fantasiatres = \relative c'' {
 b16 ^"Largo" d fis4. a,16 cis fis4. | g,16 b  e4( eis16)  fis fis,4 r |
 
 r16 ^"Vivace" d'32[ cis d16 b] g' b, cis g' d[ fis32 e fis16 d] a' cis, dis a' | e[ g32 fis g16 e] ais fis cis' e, d fis b d, e cis' fis, ais |
-b,( cis d) a-| gis d' fis, d' eis, cis'( bis cis) gis' cis, b' cis, |
+b,( cis d) a-! gis d' fis, d' eis, cis'( bis cis) gis' cis, b' cis, |
 r a32[ gis a16 fis] d' fis, gis d' a[ cis32 b cis16 a] e' gis, ais e' | b[ d32 cis d16 b] eis cis gis' b, a cis fis a, b gis' cis, eis | fis, a cis fis 
 r a cis, e dis fis b, b' cis, a' dis, fis | e, g b e r g b, d cis e a, a' b, g' cis, e | d, fis a d 
 r fis d a' g, b'( a g) g, b' e,, g' | fis, a'( g fis) fis, a' d,, fis'

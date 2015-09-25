@@ -16,15 +16,15 @@ b, g' fis8 r16 a, gis b' a, c' b, b' c, a' a, a' | dis, b dis a' r b g fis g dis
 e4 r4 r2 \bar "||"
 
 \time 12/8
-e,4.-|^"Spirituoso" fis4.-| g8 e b' g e c' | a fis c' a fis b g e g b g b | 
-e fis g cis,4 a'8 d, e fis b,4 g'8 | cis, d e ais,4 fis'8 b,4.-| cis4.-| |
+e,4.-!^"Spirituoso" fis4.-! g8 e b' g e c' | a fis c' a fis b g e g b g b | 
+e fis g cis,4 a'8 d, e fis b,4 g'8 | cis, d e ais,4 fis'8 b,4.-! cis4.-! |
 d8 b fis' d b g' e cis g' e cis fis | d b d fis d fis b cis d b,4 a8 |
 gis b e d c! b a' b c a,4 g8 | fis a d c b a g' fis g b, d g | g fis g c, e g g fis g a, a' g |
-fis a d r4. g,,4.-| a4.-| b8 g d' b g e' c a e' c a d | b g b d b d g f e f4 d'8 |
+fis a d r4. g,,4.-! a4.-! b8 g d' b g e' c a e' c a d | b g b d b d g f e f4 d'8 |
 e, d c d4 b'8  c, e a b,4 g'8 | a,4 f'8 g,4 e'8 f, a d e,4 c'8 | d, c' b c b a e gis b r4. |
-a4.-| b4.-| c8 a e' c a f' | d b f' d b e c a c e c e | a e a c4. b8 gis a e a gis |
+a4.-! b4.-! c8 a e' c a f' | d b f' d b e c a c e c e | a e a c4. b8 gis a e a gis |
 a, b c fis, g a dis,4 fis'8 b,4 a8 | e' dis e g, b e e dis e a, c e | e dis e fis, fis' e dis cis b r4. |
-e4.-| fis4.-| g8 e b' g e c' | a fis c' a fis b  g e g b g b | e4 g,8 fis4 d'8 e, g c d,4 b'8 |
+e4.-! fis4.-! g8 e b' g e c' | a fis c' a fis b  g e g b g b | e4 g,8 fis4 d'8 e, g c d,4 b'8 |
 c,4 a'8 b,4 g'8 a, g' fis g fis e | b dis e fis g a e g e b fis' dis |
 r8 r8 e, c' b c dis,4 c'8 b ais b | r8 r8 e,\p c' b c dis,4 c'8 b ais b |
 r8 a'\f b c b a g fis e b fis' dis | e, b' e b dis fis e fis g b, dis fis | g, b' e, b fis' dis e,4. r4. |
