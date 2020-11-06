@@ -13,9 +13,14 @@
 \include "f11.ly"
 \include "f12.ly"
 
-\paper
-{
-  
+#(set! paper-alist (cons '("eye-gaze-chopped" . (cons (* 200 mm) (* 75 mm))) paper-alist))
+
+\paper {
+  #(set-paper-size "eye-gaze-chopped")
+  system-system-spacing.stretchability = #1
+  top-system-spacing.stretchability = #3
+  last-bottom-spacing.stretchability = #3
+  print-page-number = #0
 }
 
 \layout
