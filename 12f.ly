@@ -13,6 +13,8 @@
 \include "f11.ly"
 \include "f12.ly"
 
+\include "book-parts.ly"
+
 \paper
 {
   
@@ -28,110 +30,15 @@
   composer = "G. F. Telemann"
   copyright = "CC-SA-3.0 license, copyright Llorenç Lledó 2011 and Lukas Bürgi 2020"
 }
-\bookpart
-{	\header
-	{	title = "Fantasia 1"
-	}
-	\score
-	{	\transpose d f \fantasiau
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 2" 
-	}
-	\score
-	{	\transpose d f \fantasiados
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 3"
-	}
-	\score
-	{	\transpose d f \fantasiatres
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 4"
-	}
-	\score
-	{	\transpose d g \fantasiaquatre
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 5"
-	}
-	\score
-	{	\transpose d f \fantasiacinc
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 6"
-	}
-	\score
-	{	\transpose d f \fantasiasis
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 7"
-	}
-	\score
-	{	\transpose d f \fantasiaset
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 8"
-	}
-	\score
-	{	\transpose d f \fantasiavuit
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 9"
-	}
-	\score
-	{	\transpose d f \fantasianou
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 10"
-	}
-	\score
-	{	\transpose d f \fantasiadeu
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 11" 
-	}
-	\score
-	{	\transpose d f \fantasiaonze
-	}
-}
-
-\bookpart
-{	\header
-	{	title = "Fantasia 12"
-	}
-	\score
-	{	\transpose d f \fantasiadotze
-	}
-}
+\fantasiau
+\fantasiados
+\fantasiatres
+\fantasiaquatre
+\fantasiacinc
+\fantasiasis
+\fantasiaset
+\fantasiavuit
+\fantasianou
+\fantasiadeu
+\fantasiaonze
+\fantasiadotze

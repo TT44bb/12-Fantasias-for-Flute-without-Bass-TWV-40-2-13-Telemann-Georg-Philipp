@@ -30,7 +30,7 @@
 
 \header
 {	
-  composer = "G. F. Telemann"
+  composer = "Georg Philipp Telemann"
   copyright = "CC-SA-3.0 license, copyright Llorenç Lledó 2011 and Lukas Bürgi 2020"
 }
 \bookpart

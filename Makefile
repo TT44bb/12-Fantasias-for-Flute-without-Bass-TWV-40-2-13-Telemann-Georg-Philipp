@@ -1,19 +1,21 @@
-default: music cover cat
+default: recorder recorder-chopped traverso traverso-chopped
 
-music: 12f.ly
-	lilypond 12f.ly 
+recorder: 12f.ly
+	cp book-parts-recorder.ly book-parts.ly
+	lilypond 12f.ly -o recorder
 
-chopped: 12f-chopped.ly
-	lilypond 12f-chopped.ly
+recorder-chopped: 12f-chopped.ly
+	cp book-parts-recorder.ly book-parts.ly
+	lilypond 12f-chopped.ly -o recorder-chopped
 
-cover: cover.tex
-	latex cover.tex ; dvips cover.dvi -Pwebo ; ps2pdf -sPAPERSIZE=a4 cover.ps
+traverso: 12f.ly
+	cp book-parts-traverso.ly book-parts.ly
+	lilypond 12f.ly -o traverso
 
-#cover: cover.tex
-#	pdflatex cover.tex 
+traverso-chopped: 12f-chopped.ly
+	cp book-parts-traverso.ly book-parts.ly
+	lilypond 12f-chopped.ly -o traverso-chopped
 
-cat:
-	pdftk cover.pdf 12f.pdf cat output Telemann_12_fantasias_for_flute.pdf
+clean:
+  rm *.pdf *.aux *.log *.dvi
 
-src:
-	tar cvfz Telemann_12_fantasias_for_flute.tar.gz *.ly makefile cover.tex README
